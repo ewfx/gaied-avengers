@@ -25,7 +25,8 @@ Classifying an email and prediction:
 
 Pre-train a model:
 ![image](https://github.com/user-attachments/assets/982f73c9-71d7-4751-9da1-6b644af74350)
-
+Power point Presentation:
+https://docs.google.com/presentation/d/14LTofwLCSlHyixjOfAdSsAsPQ2Bx4_jl/edit?usp=sharing&ouid=106560472214680577176&rtpof=true&sd=true
 
 ## 💡 Inspiration
 The inspiration for this project came from the need to handle significant volumes of servicing requests through emails by commercial bank service departments. Manually triaging, sorting, categorizing and extracting key attributes from these emails is time-consuming and prone to errors. Automating this process can bring effficiency, accuracy, save time and reduce human error.
