@@ -24,7 +24,7 @@ In todays fast-paced digital world, managing and categorizing incoming emails ef
 ![Screenshot 1](link-to-image)
 
 ## 💡 Inspiration
-What inspired you to create this project? Describe the problem you're solving.
+The inspiration for this project came from the need to handle significant volumes of servicing requests through emails by commercial bank service departments. Manually triaging, sorting, categorizing and extracting key attributes from these emails is time-consuming and prone to errors. Automating this process can bring effficiency, accuracy, save time and reduce human error.
 
 ## ⚙️ What It Does
 Explain the key features and functionalities of your project.
