@@ -32,15 +32,15 @@ The system processes incoming email request with or without attachments, summari
 ## 🛠️ How We Built It
 We have built this sytem with different endpoints as described below:
 
-a. Orchestrate Email Endpoint
+A. Orchestrate Email Endpoint
 
 This layer is mainly focused on classifying and extracting the required information from emails, which will accept *.eml files (with or without attachments). once the email is received, the process will filter the email, separate the attachments and start reading them. If the attachment contains extensive details, it will be split into different chunks and we use the Hugging face summarizer pipeline to generate a summary of the content. Based on this generated summary, a fine-tuned model named "bert-base-uncased" will be called for request and subrequest classification along with a confidence score. once classified , we extract the required fields using our pre-configured master template data which uploaded by the end user, and the response will be provided to the end user.
 
-TrainModel Endpoint
+B. TrainModel Endpoint
 
 We have exposed the trainmodel end point to provide the flexibility for developers to upload training data at any point in time, which will be used for fine-tuning. This data is captured in an Excel file, which will be stored in a directory and used for training our model
 
-MasterFeed Endpoint
+C. MasterFeed Endpoint
 
 We had a plan to expose another end point call MasterFeed to provide additional flexibility for developers to upload the extraction field along with their priority. This this will be based on the request type and the sub type they are looking for in the email.
 ## 🚧 Challenges We Faced
