@@ -27,7 +27,7 @@ In todays fast-paced digital world, managing and categorizing incoming emails ef
 The inspiration for this project came from the need to handle significant volumes of servicing requests through emails by commercial bank service departments. Manually triaging, sorting, categorizing and extracting key attributes from these emails is time-consuming and prone to errors. Automating this process can bring effficiency, accuracy, save time and reduce human error.
 
 ## ⚙️ What It Does
-Explain the key features and functionalities of your project.
+The system processes incoming email request with or without attachments, summarizes the content of both emails and attachments into a single content and uses fine-tuned generative AI models (which is already trained with our input dataset) to classify the request type and sub-request type.It also provides a confidence score and given a try to extracts the required data from the inbound content based on preconfigured data fields based on their priority level settings against each fields. This process has been exposed as an API with different endpoints, making it flexible for easy consumption and integeration from any platform.
 
 ## 🛠️ How We Built It
 Briefly outline the technologies, frameworks, and tools used in development.
