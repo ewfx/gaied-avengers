@@ -14,7 +14,7 @@
 ---
 
 ## 🎯 Introduction
-A brief overview of your project and its purpose. Mention which problem statement are your attempting to solve. Keep it concise and engaging.
+In todays fast-paced digital world, managing and categorizing incoming emails efficiently is crucial for business. This project aims to automate the extraction of request types and sub-request types from email, especially those with attachments, and is also capable of extracting required data from the inbound email based on configured values. This streamlines the workflow, improves efficiency, and reduced turnaround time. We have identified a pre-trained generative AI model, which will be downloaded and fine-tuned within our environment for this classification.
 
 ## 🎥 Demo
 🔗 [Live Demo](#) (if applicable)  
