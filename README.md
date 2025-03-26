@@ -54,24 +54,21 @@ Test Data: Preparing test data was quite challenging Ask me did not have enough 
 
 ## 🏃 How to Run
 1. Clone the repository  
-   ```sh
-   git clone https://github.com/your-repo.git
-   ```
+   
 2. Install dependencies  
-   ```sh
-   npm install  # or pip install -r requirements.txt (for Python)
-   ```
+   
 3. Run the project  
-   ```sh
-   npm start  # or python app.py
-   ```
+   
 
 ## 🏗️ Tech Stack
-- 🔹 Frontend: React / Vue / Angular
-- 🔹 Backend: Node.js / FastAPI / Django
-- 🔹 Database: PostgreSQL / Firebase
-- 🔹 Other: OpenAI API / Twilio / Stripe
+- 🔹 Frontend: Python
+- 🔹 Other:  Hugging face (summarization) , Gen AI [bert-base-uncased]
 
 ## 👥 Team
-- **Your Name** - [GitHub](#) | [LinkedIn](#)
-- **Teammate 2** - [GitHub](#) | [LinkedIn](#)
+
+Ramkumar Palraj
+R, Yokambika
+Sekar,Karthikeyan
+Sp, Kishorekumar
+Velayutham g, Shunmuga
+
