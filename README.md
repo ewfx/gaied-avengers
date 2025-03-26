@@ -1,4 +1,4 @@
-# 🚀 Project Name
+# 🚀 Intelligent Content Classification and Extraction (ICCE)
 
 ## 📌 Table of Contents
 - [Introduction](#introduction)
