@@ -18,7 +18,7 @@ In todays fast-paced digital world, managing and categorizing incoming emails ef
 
 ## 🎥 Demo
 🔗 [Live Demo](#) (if applicable)  
-📹 [Video Demo](#) (if applicable)  
+📹 [Video Demo](#) (https://drive.google.com/file/d/1NP0NjmE7JMNI-MasyXP1GDU8Yja9ZOwm/view?usp=drivesdk)  
 🖼️ Screenshots:
 Classifying an email and prediction:
 ![image](https://github.com/user-attachments/assets/4e6a4b10-1220-47ae-bb17-cc0b89684412)
