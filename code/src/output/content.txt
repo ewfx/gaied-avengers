@@ -1,0 +1,42 @@
+Processing file: Email Orchestrate and Triage Routing Email - Avengers.eml
+Subject: Email Orchestrate and Triage Routing Email - Avengers
+From: Yoka R <yoka118@gmail.com>
+To: Yoka R <yoka118@gmail.com>, ram kumar <infotech.ram@gmail.com>, Kishorekumar SP <kishorerisbane@gmail.com>, Shunmuga Velayutham <softvelayutham@gmail.com>, karthiksn@outlook.com
+Date: Wed, 26 Mar 2025 13:39:24 +0530
+
+Text Body :
+From: Bank of America N.A
+To: Wells Fargo National Association
+Date: 8-Nov-2023
+
+ATTN: AGENT Default
+Phone: 999-999-000
+Email: xyz@gmail.com
+
+Deal CusIP: 123432IRU
+Deal ISIN: US87348937
+
+Effective 10-Nov-2023, XYZ LP has elected to repay under term option, a
+total of USD 20,000.
+
+Previous Global Principal Balance: USD 45,000
+New Global Principal Balance: USD 25,000
+
+This loan was effective 20-Jul-2023 and is scheduled to reprice on
+20-No-2023.
+
+We will remit USD 10,000 on the effective date. Please note that if the
+borrower has not in fact made such payment.
+
+Thanks & Regards,
+Jonny.
+Email: abc@gmail.com
+
+
+Attachment: Document.docx
+Attachment Content (DOCX saved as TXT): Document.txt
+Text content saved to: C:\Users\ADMIN\Desktop\Hack 2025\attachments\Document.txt
+
+
+================================================================================
+
