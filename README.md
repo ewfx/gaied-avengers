@@ -30,7 +30,10 @@ The inspiration for this project came from the need to handle significant volume
 The system processes incoming email request with or without attachments, summarizes the content of both emails and attachments into a single content and uses fine-tuned generative AI models (which is already trained with our input dataset) to classify the request type and sub-request type.It also provides a confidence score and given a try to extracts the required data from the inbound content based on preconfigured data fields based on their priority level settings against each fields. This process has been exposed as an API with different endpoints, making it flexible for easy consumption and integeration from any platform.
 
 ## 🛠️ How We Built It
-Briefly outline the technologies, frameworks, and tools used in development.
+We have built this sytem with different endpoints as described below:
+
+a. Orchestrate Email Endpoint
+This layer is mainly focused on classifying and extracting the required information from emails, which will accept *.eml files (with or without attachments). once the email is received, the process will filter the email, separate the attachments and start reading them. If the attachment contains extensive details, it will be split into different chunks and we use the Hugging face summarizer pipeline to generate a summary of the content. Based on this generated summary, a fine-tuned model named "bert-base-uncased" will be called for request and subrequest classification along with a confidence score. once classified , we extract the required fields using our pre-configured master template data which uploaded by the end user, and the response will be provided to the end user.
 
 ## 🚧 Challenges We Faced
 Describe the major technical or non-technical challenges your team encountered.
