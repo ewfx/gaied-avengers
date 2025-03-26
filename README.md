@@ -80,11 +80,21 @@ Test Data: Preparing test data was quite challenging. Ask me did not have enough
    #Navigate to project folder
    python app.py
    ```
+
+4. Access the endpoints   
+   ```
+   #To train the model
+   http://127.0.0.1:5000/train-model - POST request(with or without excel attachments)
+   ```
+   ```
+   #To classify the email and predict
+   http://127.0.0.1:5000/run-script - POST request
+   ```
    
 
 ## 🏗️ Tech Stack
 - 🔹 Frontend: Python
-- 🔹 Backend: Flask framework for API endpoints
+- 🔹 Backend: Flask framework(Python)
 - 🔹 Other:  Hugging face (summarization) , Gen AI [bert-base-uncased]
 
 ## 👥 Team
