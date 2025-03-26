@@ -53,11 +53,20 @@ Model identification: Identifying a suitable free pre-trained model that does no
 Test Data: Preparing test data was quite challenging Ask me did not have enough information about the current system and how it classifies the email.
 
 ## 🏃 How to Run
-1. Clone the repository  
+1. Clone the repository
+
+   `https://github.com/ewfx/gaied-avengers.git`
+
+2. Install dependencies
    
-2. Install dependencies  
+   `pip install flask pandas openai scikit-learn PyPDF2 Pillow transformers torch joblib docx`
+
+3. Run the project
    
-3. Run the project  
+   ```
+   #Navigate to project folder
+   python app.py
+   ```
    
 
 ## 🏗️ Tech Stack
