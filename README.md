@@ -44,7 +44,13 @@ C. MasterFeed Endpoint
 
 We had a plan to expose another end point call MasterFeed to provide additional flexibility for developers to upload the extraction field along with their priority. This this will be based on the request type and the sub type they are looking for in the email.
 ## 🚧 Challenges We Faced
-Describe the major technical or non-technical challenges your team encountered.
+Email Parsing: Handling different attachments and parsing them into a stream content.
+
+Scalability: Making the system scalable to handle a large volume of emails efficiently
+
+Model identification: Identifying a suitable free pre-trained model that does not expose any data to the outside world, and is capable of being fine tune to provide the exact classification, we need.
+
+Test Data: Preparing test data was quite challenging Ask me did not have enough information about the current system and how it classifies the email.
 
 ## 🏃 How to Run
 1. Clone the repository  
